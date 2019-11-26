@@ -1,3 +1,7 @@
 class CoffeeSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes(
+    :id,
+    :coffee_type,
+    :amount
+  )
 end
