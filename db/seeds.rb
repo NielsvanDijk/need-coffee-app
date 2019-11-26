@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Coffee.create(coffee_type: 'Lungo Forte', amount: 50)
+Coffee.create(coffee_type: 'Lungo Leggero', amount: 50)
+Coffee.create(coffee_type: 'Espresso Forte', amount: 50)
+Coffee.create(coffee_type: 'Espresso Leggero', amount: 50)
+Coffee.create(coffee_type: 'Ristretto', amount: 50)
+Coffee.create(coffee_type: 'Ristretto Instenso', amount: 50)
+Coffee.create(coffee_type: 'Lungo Decaffeinatio', amount: 50)
+Coffee.create(coffee_type: 'Espresso Decaffeinatio', amount: 50)
