@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-DatabaseCleaner.clean_with(:truncation)
+# DatabaseCleaner.clean_with(:truncation)
 
 Coffee.create(coffee_type: 'Lungo Forte', amount: 50)
 Coffee.create(coffee_type: 'Lungo Leggero', amount: 50)
