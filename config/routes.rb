@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   namespace :api, defaults: { format: :json } do
     resources :coffees, only:[:index, :create, :show] do
-      get :grab_coffee
+      post :grab_coffee
     end
   end
 end

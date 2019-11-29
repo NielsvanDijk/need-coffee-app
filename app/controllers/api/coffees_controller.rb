@@ -11,5 +11,6 @@ class Api::CoffeesController < ApplicationController
   def grab_coffee
     current_coffee = Coffee.find(params[:coffee_id]).id
     Coffee.find(current_coffee).decrement!(:amount, 1)
+    head :ok
   end
 end
